@@ -1,0 +1,136 @@
+inherited FPrincipal_iPhone55in: TFPrincipal_iPhone55in
+  ClientHeight = 716
+  ClientWidth = 414
+  DesignerMasterStyle = 3
+  inherited Rectangle1: TRectangle
+    Size.Width = 414.000000000000000000
+    inherited Text1: TText
+      Size.Width = 414.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      inherited Button6: TButton
+        Size.Width = 44.000000000000000000
+        Size.Height = 44.000000000000000000
+      end
+      inherited Button7: TButton
+        Position.X = 388.000000000000000000
+        Position.Y = 12.000000000000000000
+        Size.Width = 22.000000000000000000
+        Size.Height = 27.000000000000000000
+      end
+    end
+  end
+  inherited Rectangle2: TRectangle
+    Size.Width = 414.000000000000000000
+    inherited Switch1: TSwitch
+      Position.X = 360.000000000000000000
+    end
+    inherited Button1: TButton
+      Size.Width = 44.000000000000000000
+    end
+    inherited Button2: TButton
+      Position.X = 44.000000000000000000
+      Size.Width = 44.000000000000000000
+    end
+    inherited Button3: TButton
+      Position.X = 88.000000000000000000
+      Size.Width = 44.000000000000000000
+    end
+    inherited Button4: TButton
+      Position.X = 132.000000000000000000
+      Size.Width = 44.000000000000000000
+    end
+    inherited Button5: TButton
+      Position.X = 176.000000000000000000
+      Size.Width = 44.000000000000000000
+    end
+  end
+  inherited Layout2: TLayout
+    Size.Width = 414.000000000000000000
+    Size.Height = 614.000000000000000000
+    inherited TabControl1: TTabControl
+      Size.Width = 406.000000000000000000
+      Size.Height = 606.000000000000000000
+      Sizes = (
+        406s
+        557s
+        406s
+        557s
+        406s
+        557s
+        406s
+        557s)
+      inherited TabItem1: TTabItem
+        Size.Width = 51.000000000000000000
+        ExplicitSize.cx = 55.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        inherited VertScrollBox2: TVertScrollBox
+          Size.Width = 396.000000000000000000
+          Size.Height = 547.000000000000000000
+          Viewport.Width = 392.000000000000000000
+          Viewport.Height = 543.000000000000000000
+          inherited StringGrid1: TStringGrid
+            Size.Width = 382.000000000000000000
+            Size.Height = 380.000000000000000000
+            Viewport.Width = 382.000000000000000000
+            Viewport.Height = 380.000000000000000000
+          end
+          inherited Panel1: TPanel
+            Size.Width = 392.000000000000000000
+            inherited Text2: TText
+              Position.X = 337.000000000000000000
+              TextSettings.Font.StyleExt = {00070000000000000004000000}
+            end
+          end
+        end
+      end
+      inherited TabItem2: TTabItem
+        Size.Width = 65.000000000000000000
+        ExplicitSize.cx = 69.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        inherited VertScrollBox1: TVertScrollBox
+          Size.Width = 406.000000000000000000
+          Size.Height = 557.000000000000000000
+          Viewport.Width = 390.000000000000000000
+          Viewport.Height = 557.000000000000000000
+          inherited Layout1: TLayout
+            Size.Width = 380.000000000000000000
+            inherited EditCodigo: TEdit
+              Size.Width = 380.000000000000000000
+            end
+            inherited EditDescripcion: TEdit
+              Size.Width = 380.000000000000000000
+            end
+            inherited EditPrecio: TEdit
+              Size.Width = 380.000000000000000000
+            end
+            inherited EditObserv: TEdit
+              Size.Width = 380.000000000000000000
+            end
+          end
+        end
+      end
+      inherited TabItem3: TTabItem
+        Size.Width = 67.000000000000000000
+        ExplicitSize.cx = 71.000000000000000000
+        ExplicitSize.cy = 26.000000000000000000
+        inherited Image1: TImage
+          MultiResBitmap.Height = 58
+          MultiResBitmap.Width = 438
+          Position.Y = 504.000000000000000000
+          Size.Width = 406.000000000000000000
+        end
+        inherited Memo1: TMemo
+          Size.Width = 396.000000000000000000
+          Size.Height = 494.000000000000000000
+          Viewport.Width = 396.000000000000000000
+          Viewport.Height = 494.000000000000000000
+        end
+      end
+      inherited TabItem4: TTabItem
+        Size.Width = 65.000000000000000000
+        ExplicitSize.cx = 65.000000000000000000
+        ExplicitSize.cy = 49.000000000000000000
+      end
+    end
+  end
+end

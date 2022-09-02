@@ -1,0 +1,13 @@
+object TStyleContainer
+  object TRectangle
+    Fill.Color = claBlack
+    HitTest = False
+    Position.X = 323.000000000000000000
+    Position.Y = 421.000000000000000000
+    Size.Width = 50.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = xFF8E8E8E
+    Visible = False
+  end
+end
